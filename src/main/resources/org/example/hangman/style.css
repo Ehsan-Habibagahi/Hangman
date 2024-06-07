@@ -1,0 +1,64 @@
+.root{
+    -fx-purple-color: #6782cf;
+}
+.paper-background {
+    -fx-background-image: url('grid.jpg');
+    -fx-background-size: 200 150;
+    -fx-background-repeat: repeat;
+}
+.menu-box{
+    -fx-background-color: rgba(0,0,0,0.3);
+    -fx-background-radius: 20;
+}
+.title
+{
+    -fx-font-family: "Roboto Bk";
+    /*-fx-text-fill: #3F51B5;*/
+    -fx-text-fill: -fx-purple-color;
+    -fx-font-size: 40;
+}
+.title .text{
+    -fx-stroke: #000000;
+    -fx-stroke-width: 1.5;
+}
+.menu-button{
+    -fx-font-family: "Roboto Bk";
+    -fx-font-size: 30;
+    -fx-text-fill: #fff7ec;
+    -fx-background-color: #9D27B0;
+    -fx-background-radius: 21;
+    -fx-border-color: #000000;
+    -fx-border-width: 4;
+    -fx-border-radius: 20;
+    -fx-transition-duration: 3s;
+}
+.back-button{
+    -fx-font-family: "Roboto Bk";
+    -fx-font-size: 15;
+    -fx-text-fill: black;
+    -fx-background-color: transparent;
+    -fx-background-radius: 21;
+    -fx-border-color: #000000;
+    -fx-border-width: 3;
+    -fx-border-radius: 20;
+    -fx-transition-duration: 3s;
+}
+.menu-button .text{
+    -fx-stroke: #000000;
+    -fx-stroke-width: 2;
+}
+.menu-button:hover, .back-button:hover{
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
+.label-incorrect{
+    -fx-font-family: "Comic Sans MS";
+
+    -fx-font-size: 30;
+    -fx-text-fill: #ed4b9e;
+}
+.label-visible{
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 40;
+    -fx-text-fill: black;
+}

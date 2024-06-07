@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane prefHeight="581.0" prefWidth="528.0" styleClass="paper-background" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.hangman.MenuController">
+  <center>
+  <VBox fx:id="menuVBox" alignment="CENTER" maxHeight="500.0" maxWidth="200.0" prefHeight="469.0" prefWidth="400.0" spacing="20" styleClass="menu-box">
+  <padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+  </padding>
+         <Label fx:id="titleLabel" styleClass="title" text="Hangman">
+            <font>
+               <Font name="Roboto Thin" />
+            </font>
+         </Label>
+   <Button fx:id="play" mnemonicParsing="false" onAction="#playGame" prefHeight="73.0" prefWidth="110.0" styleClass="menu-button" text="Play" />
+  </VBox>
+  </center>
+</BorderPane>
